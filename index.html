@@ -9,17 +9,22 @@
             <p style="text-align: center;">Le site est en Cours de Construction !</p>
             
             <script>
-                USER = "3xpl0it-sh4d0w"
-                API_URL = `https://api.github.com/user/${USER}`
-
-                function GET_DATA()
+                fetch('https://api.github.com/users/3xpl0it-sh4d0w').then(function(response) 
                 {
-                    fetch(API_URL)
-                        .then()
+                    var contentType = response.headers.get("content-type");
+                    if(contentType && contentType.indexOf("application/json") !== -1) 
+                    {
+                        return response.json().then(function(json) 
                         {
-                            alert('la requete a fonctionnée !')
-                        }
-                }
+                            // traitement du JSON
+                        });
+                    } 
+                    
+                    else 
+                    {
+                        console.log("Oops, nous n'avons pas du JSON!");
+                    }
+                });
             </script>
 
             <script type="text/javascript" src="./assets/js/protection.js"></script>
