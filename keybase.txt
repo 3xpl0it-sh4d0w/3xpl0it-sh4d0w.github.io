@@ -1,1 +1,56 @@
+==================================================================
+https://keybase.io/3xpl0it_sh4d0w
+--------------------------------------------------------------------
 
+I hereby claim:
+
+  * I am an admin of https://3xpl0it-sh4d0w.github.io
+  * I am 3xpl0it_sh4d0w (https://keybase.io/3xpl0it_sh4d0w) on keybase.
+  * I have a public key ASBw3MG5Pvf-F9fLEhxGibTCebsvsuBfFsI5Oc2j6-M0iAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012070dcc1b93ef7fe17d7cb121c4689b4c279bb2fb2e05f16c23939cda3ebe334880a",
+      "host": "keybase.io",
+      "kid": "012070dcc1b93ef7fe17d7cb121c4689b4c279bb2fb2e05f16c23939cda3ebe334880a",
+      "uid": "ec34cfe85bf727f26ef0aa597f9d6419",
+      "username": "3xpl0it_sh4d0w"
+    },
+    "merkle_root": {
+      "ctime": 1653085255,
+      "hash": "9a8d1b62c14ceb3a08536aa6562b6aa8af33f43e9e9f91b6fab2204aeb45d7ffa095ecac608e45213c4cffce3f8a1670060c8a8e96e265a2d79c525958b867ec",
+      "hash_meta": "f3967e703721cd3e92eb3dfd6d532c9839f5c9510f75dfa8337ae8aaa0ccbb8c",
+      "seqno": 22525935
+    },
+    "service": {
+      "entropy": "grc/W8zXeB96y9gwqVf98Ysg",
+      "hostname": "3xpl0it-sh4d0w.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.3"
+  },
+  "ctime": 1653085304,
+  "expire_in": 504576000,
+  "prev": "d2b35fbd0a8b7c9fa220f54c749620a3b09fceef9b3cff4d13b13865ced3cb1f",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcNzBuT73/hfXyxIcRom0wnm7L7LgXxbCOTnNo+vjNIgKp3BheWxvYWTESpcCDMQg0rNfvQqLfJ+iIPVMdJYgo7Cfzu+bPP9NE7E4Zc7Tyx/EILwwhm+xt3Ud4JkCMSXvX9qnwQ8Q6+TogpYhVjAt4Z4EAgHCo3NpZ8RAiIzt4TpxcurNuDmcFYPbhK1zuAZVyzn2w/V+XViI2NZ1GJ6PfFn69HCwHPEJpCYjxxHhFBo3KMNAU71rrPIZDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILwVYkuNnTBasNgNnUzGGK49aGf+8O3eWTghYhaexb3so3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/3xpl0it_sh4d0w
+
+==================================================================
