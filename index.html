@@ -24,5 +24,43 @@
         <footer>
 
         </footer>
+        
+        <script>
+            var client = new ClientJS();
+            
+            if (client.isMobile())
+            {
+                if (client.isMobileAndroid())
+                {
+                    alert("Vous utilisez Android.")
+                }
+                
+                else
+                
+                if (client.isMobileIOS())
+                {
+                    alert("Vous utilisez IOS.")
+                }
+            }
+            
+            if (client.isWindows())
+            {
+                alert("Vous utilisez Windows.")
+            }
+            
+            else
+                
+            if (client.isMac())
+            {
+                alert("Vous utilisez OS X.")
+            }
+            
+            else
+                
+            if (client.isLinux())
+            {
+                alert("Vous utilisez Linux.")
+            }
+        </script>
     </body>
 </html>
