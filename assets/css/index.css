@@ -12,6 +12,8 @@ html
 
 body
 {
+    margin: 0;
+    padding: 0;
     background: #131516;
 }
 
@@ -27,5 +29,9 @@ footer
 
 h1
 {
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+    
     color: #d8d4cf;
+    font-family: 'Indie Flower', cursive;
+    
 }
