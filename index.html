@@ -32,34 +32,64 @@
             {
                 if (client.isMobileAndroid())
                 {
-                    alert("Vous utilisez Android.")
+                    document.open();
+                    document.write
+                    (
+                        `
+                        <p>Vous utilisez : Android.</p>
+                        `
+                    )
                 }
                 
                 else
                 
                 if (client.isMobileIOS())
                 {
-                    alert("Vous utilisez IOS.")
+                    document.open();
+                    document.write
+                    (
+                        `
+                        <p>Vous utilisez : IOS.</p>
+                        `
+                    )
                 }
             }
             
             if (client.isWindows())
             {
-                alert("Vous utilisez Windows.")
+                document.open();
+                document.write
+                (
+                    `
+                    <p>Vous utilisez : Windows.</p>
+                    `
+                )
             }
             
             else
                 
             if (client.isMac())
             {
-                alert("Vous utilisez OS X.")
+                document.open();
+                document.write
+                (
+                    `
+                    <p>Vous utilisez : OS X.</p>
+                    `
+                )
             }
             
             else
                 
             if (client.isLinux())
             {
-                alert("Vous utilisez Linux.")
+                document.open();
+                document.write
+                (
+                    `
+                    <p>Vous utilisez : Linux.</p>
+                    `
+                )
             }
         </script>
     </body>
