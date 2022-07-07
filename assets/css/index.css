@@ -12,7 +12,7 @@ html
 
 body
 {
-
+    background: #131516;
 }
 
 header
@@ -23,4 +23,9 @@ header
 footer
 {
 
+}
+
+h1
+{
+    color: #d8d4cf;
 }
