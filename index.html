@@ -65,24 +65,15 @@
             {
                 document.write("Vous utilisez : Linux")
             }
-        </script>
         
-        <script>
-            $(document).ready
-            (
-                function() 
+            // $(document).ready(function() 
+            // {
+                $.getJSON("https://api-ipv4.ip.sb/jsonip?callback=?",
+                function(json) 
                 {
-                    $.getJSON
-                    (
-                        "https://api-ipv4.ip.sb/jsonip?callback=?",
-
-                        function(json) 
-                        {
-                            document.write("Votre IP : ", json.ip);
-                        }
-                    );
-                }
-            );
+                    document.write("Votre IP : ", json.ip);
+                });
+            // });
       </script>
     </body>
 </html>
