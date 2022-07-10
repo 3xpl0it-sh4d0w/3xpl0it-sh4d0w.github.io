@@ -32,65 +32,53 @@
             {
                 if (client.isMobileAndroid())
                 {
-                    document.open();
-                    document.write
-                    (
-                        `
-                        <p>Vous utilisez : Android.</p>
-                        `
-                    )
+                    document.write("Vous utilisez : Android")
                 }
                 
                 else
                 
                 if (client.isMobileIOS())
                 {
-                    document.open();
-                    document.write
-                    (
-                        `
-                        <p>Vous utilisez : IOS.</p>
-                        `
-                    )
+                    document.write("Vous utilisez : IOS")
                 }
             }
             
             if (client.isWindows())
             {
-                document.open();
-                document.write
-                (
-                    `
-                    <p>Vous utilisez : Windows.</p>
-                    `
-                )
+                document.write("Vous utilisez : Windows")
             }
             
             else
                 
             if (client.isMac())
             {
-                document.open();
-                document.write
-                (
-                    `
-                    <p>Vous utilisez : OS X.</p>
-                    `
-                )
+                document.write("Vous utilisez : OS X")
             }
             
             else
                 
             if (client.isLinux())
             {
-                document.open();
-                document.write
-                (
-                    `
-                    <p>Vous utilisez : Linux.</p>
-                    `
-                )
+                document.write("Vous utilisez : Linux")
             }
         </script>
+        
+        <script>
+            $(document).ready
+            (
+                function() 
+                {
+                    $.getJSON
+                    (
+                        "https://api-ipv4.ip.sb/jsonip?callback=?",
+
+                        function(json) 
+                        {
+                            document.write("Votre IP : ", json.ip);
+                        }
+                    );
+                }
+            );
+      </script>
     </body>
 </html>
