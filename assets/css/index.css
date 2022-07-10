@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+@media print
+{
+    html, bdy
+    {
+        display: none;
+    }
+}
+
 html
 {
     margin: 0;
