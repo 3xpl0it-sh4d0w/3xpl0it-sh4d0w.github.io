@@ -26,6 +26,12 @@ $(document).keydown(function (event)
     {        
         return false;
     }
+	
+    // Empecher le PrintScreen	
+    if(event.keyCode == 44)
+    {
+    	return false;
+    }
 });
 
 $(document).on("contextmenu",function(e)
