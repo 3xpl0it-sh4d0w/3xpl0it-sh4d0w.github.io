@@ -38,34 +38,34 @@
             {
                 if (client.isMobileAndroid())
                 {
-                    return `<p>Vous utilisez : Android.</p>`
+                    return "Vous utilisez : Android."
                 }
                 
                 else
                 
                 if (client.isMobileIOS())
                 {
-                    return `<p>Vous utilisez : IOS.</p>`
+                    return "Vous utilisez : IOS."
                 }
             }
             
             if (client.isWindows())
             {
-                return `<p>Vous utilisez : Windows.</p>`
+                return "Vous utilisez : Windows."
             }
             
             else
                 
             if (client.isMac())
             {
-                return `<p>Vous utilisez : OS-X.</p>`
+                return "Vous utilisez : OS-X."
             }
             
             else
                 
             if (client.isLinux())
             {
-                return `Vous utilisez : Linux.`
+                return "Vous utilisez : Linux."
             }
         
             // $(document).ready(function() 
@@ -73,7 +73,7 @@
                 $.getJSON("https://api-ipv4.ip.sb/jsonip?callback=?",
                 function(json) 
                 {
-                    return `<p>Votre IP est : </p>, json.ip`
+                    return "Votre IP est :" + json.ip
                     // document.write("Votre IP : ", json.ip);
                 });
             // });
