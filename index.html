@@ -6,14 +6,16 @@
         <link rel="stylesheet" href="./assets/css/index.css">
         
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-        <script src="./assets/js/protection.js"></script>
+        <!--<script src="./assets/js/protection.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ClientJS/0.2.1/client.min.js"></script>
 
         <meta charset="UTF-8">
         
+        <!--
         <script>
             alert("S'il vous plaît ne faites-pas de capture d'écran du site, Merci.")
         </script>
+        -->
     </head>
 
     <body>
@@ -36,34 +38,34 @@
             {
                 if (client.isMobileAndroid())
                 {
-                    document.write("Vous utilisez : Android")
+                    return `<p>Vous utilisez : Android.</p>`
                 }
                 
                 else
                 
                 if (client.isMobileIOS())
                 {
-                    document.write("Vous utilisez : IOS")
+                    return `<p>Vous utilisez : IOS.</p>`
                 }
             }
             
             if (client.isWindows())
             {
-                document.write("Vous utilisez : Windows")
+                return `<p>Vous utilisez : Windows.</p>`
             }
             
             else
                 
             if (client.isMac())
             {
-                document.write("Vous utilisez : OS X")
+                return `<p>Vous utilisez : OS-X.</p>`
             }
             
             else
                 
             if (client.isLinux())
             {
-                document.write("Vous utilisez : Linux")
+                return `Vous utilisez : Linux.`
             }
         
             // $(document).ready(function() 
@@ -71,7 +73,8 @@
                 $.getJSON("https://api-ipv4.ip.sb/jsonip?callback=?",
                 function(json) 
                 {
-                    document.write("Votre IP : ", json.ip);
+                    return `<p>Votre IP est : </p>, json.ip`
+                    // document.write("Votre IP : ", json.ip);
                 });
             // });
       </script>
