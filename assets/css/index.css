@@ -6,7 +6,7 @@
 
 @media print
 {
-    html, bdy
+    html, body
     {
         display: none;
     }
